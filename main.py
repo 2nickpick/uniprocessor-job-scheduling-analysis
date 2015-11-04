@@ -77,11 +77,11 @@ for index, algorithm in enumerate(algorithms):
 
 print("Best Policy is {0} with an Average Turn-around Time of {1}".format(', '.join(correct_algorithms), min_time))
 
-print("Additional Round Robin Testing\n")
+#print("Additional Round Robin Testing\n")
 
-results = []
-time_quantums = [1, 2, 5, 10, 15, 20]
-for time_quantum in time_quantums:
-    results.append(round_robin.simulate(jobs, time_quantum))
+#results = []
+#time_quantums = [1, 2, 5, 10, 15, 20]
+#for time_quantum in time_quantums:
+#    results.append(round_robin.simulate(jobs, time_quantum))
 
-print(results)
+#print(results)

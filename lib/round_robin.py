@@ -75,7 +75,6 @@ def simulate(jobs, time_quantum):
                 job_queue.append([job_arrived, cycles_to_run, job_id])
                 preempt = True
 
-
         if cycles_to_run == 0 and not preempt:
             results.append([job_id, current_cycle - job_arrived])
 
