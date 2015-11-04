@@ -35,7 +35,7 @@ def load_file(file):
         if len(tokens) == 2:
             list.append([
                 int(tokens[0]),
-                int(tokens[1])
+                int(tokens[1]),
             ])
 
     return list
