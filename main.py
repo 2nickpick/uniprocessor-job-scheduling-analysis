@@ -16,7 +16,7 @@
 
 import sys
 from collections import deque
-from lib import util, fcfs
+from lib import util, fcfs, sjn
 
 __author__ = 'Nicholas Pickering'
 
@@ -44,6 +44,7 @@ if not file:
 #
 jobs = util.load_file(file)
 
-print("File processed: {0} \n".format(filename))
+print("\nFile processed: {0} \n".format(filename))
 
 fcfs_results = fcfs.simulate(jobs)
+sjn_results = sjn.simulate(jobs)

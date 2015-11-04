@@ -38,8 +38,6 @@ def load_file(file):
                 int(tokens[1])
             ])
 
-    list.sort(key=lambda x: x[0])
-
     return list
 
 

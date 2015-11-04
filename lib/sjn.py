@@ -1,21 +1,22 @@
 #
 #
-#   FCFS
-#   This module handles the simulation of First Come, First Serve
+#   SJN
+#   This module handles the simulation of Shortest Job Next
 #
+import heapq
 
 from lib import util
 from collections import deque
 from statistics import mean
 
 #   Simulate
-#   Simulate the FCFS algorithm
+#   Simulate the SJN algorithm
 #
 #   jobs - the jobs to simulate
 
 
 def simulate(jobs):
-    print("First Come, First Serve (FCFS) Information:")
+    print("Shortest Job Next (SJN) Information:")
 
     # don't overwrite the main jobs array
     jobs = util.deepcopy(jobs)
@@ -24,7 +25,11 @@ def simulate(jobs):
 
     # start our queue
     jobs = deque(jobs)
-    job_queue = deque([jobs.popleft()])
+    job_queue = [jobs.popleft()]
+    heapq.heapify(job_queue)
+
+    print(jobs)
+    print(job_queue)
 
     results = []
 
@@ -32,8 +37,9 @@ def simulate(jobs):
     job_id = 1
 
     while len(job_queue) > 0:
-        # grab the next job to process
-        job = job_queue.popleft()
+        # grab the next job to process (sort by priority first)
+        job_queue.sort(key=lambda x: x[1])
+        job = heapq.heappop(job_queue)
 
         job_arrived = job[0]
         cycles_to_run = job[1]
