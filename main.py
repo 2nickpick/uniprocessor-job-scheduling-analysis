@@ -16,7 +16,7 @@
 
 import sys
 from collections import deque
-from lib import util, fcfs, sjn
+from lib import util, fcfs, sjn, srt
 
 __author__ = 'Nicholas Pickering'
 
@@ -48,3 +48,4 @@ print("\nFile processed: {0} \n".format(filename))
 
 fcfs_results = fcfs.simulate(jobs)
 sjn_results = sjn.simulate(jobs)
+srt_results = srt.simulate(jobs)
