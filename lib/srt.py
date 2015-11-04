@@ -51,17 +51,23 @@ def simulate(jobs):
         job_id = job[2]
 
         # simulate each cycle
-        while cycles_to_run > 0:
+        preempt = False
+        while cycles_to_run > 0 and not preempt:
             current_cycle += 1
             cycles_to_run -= 1
 
             # if a job is available, move it to the queue
             if len(jobs) > 0 and jobs[0][0] == current_cycle:
-                job_queue.append(jobs.popleft())
+                new_job = jobs.popleft()
+                heapq.heappush(job_queue, new_job)
 
-        results.append([job_id, current_cycle - job_arrived])
+                # check if we need to pre-empt
+                if new_job[1] <= cycles_to_run:
+                    heapq.heappush(job_queue, [job_arrived, cycles_to_run, job_id])
+                    preempt = True
 
-        job_id += 1
+        if cycles_to_run == 0:
+            results.append([job_id, current_cycle - job_arrived])
 
     results.sort(key=lambda x: x[0])
 

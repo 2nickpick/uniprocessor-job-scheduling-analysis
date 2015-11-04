@@ -61,8 +61,6 @@ def simulate(jobs):
 
         results.append([job_id, current_cycle - job_arrived])
 
-        job_id += 1
-
     results.sort(key=lambda x: x[0])
 
     for result in results:
