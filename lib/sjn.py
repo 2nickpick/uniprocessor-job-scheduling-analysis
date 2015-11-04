@@ -38,8 +38,11 @@ def simulate(jobs):
 
     # start our queue
     jobs = deque(jobs)
-    job_queue = [jobs.popleft()]
+    job_queue = []
     heapq.heapify(job_queue)
+
+    while len(jobs) > 0 and jobs[0][0] == current_cycle:
+        job_queue.append(jobs.popleft())
 
     while len(job_queue) > 0:
         # grab the next job to process (sort by priority first)
@@ -56,7 +59,7 @@ def simulate(jobs):
             cycles_to_run -= 1
 
             # if a job is available, move it to the queue
-            if len(jobs) > 0 and jobs[0][0] == current_cycle:
+            while len(jobs) > 0 and jobs[0][0] == current_cycle:
                 job_queue.append(jobs.popleft())
 
         results.append([job_id, current_cycle - job_arrived])

@@ -16,13 +16,15 @@
 
 import sys
 from collections import deque
-from lib import util, fcfs, sjn, srt
+from lib import util, fcfs, sjn, srt, round_robin
 
 __author__ = 'Nicholas Pickering'
 
 
 location = 0
 filename = ''
+time_quantum = 0
+
 generate_obj = False
 
 #   Start Main Program
@@ -39,13 +41,21 @@ file = open(filename, "r")
 if not file:
     util.error("File could not be loaded... Exiting...", True)
 
+#   Validate Time Quantum
+if len(sys.argv) > 2 and int(sys.argv[2]) > 0:
+    time_quantum = int(sys.argv[2])
+else:
+    util.error("Invalid Time Quantum (second argument)... Exiting...", True)
+
 #
 #   Process Input
 #
 jobs = util.load_file(file)
 
-print("\nFile processed: {0} \n".format(filename))
+print("\nFile processed:\t{0}".format(filename))
+print("Time Quantum:\t{0} \n".format(time_quantum))
 
 fcfs_results = fcfs.simulate(jobs)
 sjn_results = sjn.simulate(jobs)
 srt_results = srt.simulate(jobs)
+rr_results = round_robin.simulate(jobs, time_quantum)
