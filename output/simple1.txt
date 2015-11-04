@@ -1,0 +1,35 @@
+Uniprocessor Scheduling Algorithm Simulation
+Written by Nicholas Pickering
+
+File processed:	data/simple1.txt
+Time Quantum:	3
+
+First Come, First Serve (FCFS) Information:
+Job A Turn-around Time: 7
+Job B Turn-around Time: 9
+Job C Turn-around Time: 7
+Job D Turn-around Time: 5
+Average Turn-around Time: 7.0
+
+Shortest Job Next (SJN) Information:
+Job A Turn-around Time: 7
+Job B Turn-around Time: 10
+Job C Turn-around Time: 3
+Job D Turn-around Time: 5
+Average Turn-around Time: 6.25
+
+Shortest Remaining Time (SRT) Information:
+Job A Turn-around Time: 14
+Job B Turn-around Time: 5
+Job C Turn-around Time: 1
+Job D Turn-around Time: 2
+Average Turn-around Time: 5.5
+
+Round Robin Information (Time Quantum = 3):
+Job A Turn-around Time: 14
+Job B Turn-around Time: 9
+Job C Turn-around Time: 5
+Job D Turn-around Time: 4
+Average Turn-around Time: 8.0
+
+Best Policy is SRT with an Average Turn-around Time of 5.5

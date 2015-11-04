@@ -1,0 +1,119 @@
+Uniprocessor Scheduling Algorithm Simulation
+Written by Nicholas Pickering
+
+File processed:	data/medium.txt
+Time Quantum:	3
+
+First Come, First Serve (FCFS) Information:
+Job A Turn-around Time: 11
+Job B Turn-around Time: 9
+Job C Turn-around Time: 15
+Job D Turn-around Time: 20
+Job E Turn-around Time: 30
+Job F Turn-around Time: 38
+Job G Turn-around Time: 43
+Job H Turn-around Time: 38
+Job I Turn-around Time: 55
+Job J Turn-around Time: 66
+Job K Turn-around Time: 73
+Job L Turn-around Time: 86
+Job M Turn-around Time: 89
+Job N Turn-around Time: 96
+Job O Turn-around Time: 111
+Job P Turn-around Time: 130
+Job Q Turn-around Time: 140
+Job R Turn-around Time: 140
+Job S Turn-around Time: 140
+Job T Turn-around Time: 142
+Job U Turn-around Time: 154
+Job V Turn-around Time: 157
+Job W Turn-around Time: 159
+Job X Turn-around Time: 152
+Job Y Turn-around Time: 151
+Average Turn-around Time: 89.8
+
+Shortest Job Next (SJN) Information:
+Job A Turn-around Time: 11
+Job B Turn-around Time: 9
+Job C Turn-around Time: 15
+Job D Turn-around Time: 41
+Job E Turn-around Time: 60
+Job F Turn-around Time: 26
+Job G Turn-around Time: 13
+Job H Turn-around Time: 8
+Job I Turn-around Time: 164
+Job J Turn-around Time: 100
+Job K Turn-around Time: 69
+Job L Turn-around Time: 109
+Job M Turn-around Time: 11
+Job N Turn-around Time: 163
+Job O Turn-around Time: 127
+Job P Turn-around Time: 200
+Job Q Turn-around Time: 66
+Job R Turn-around Time: 7
+Job S Turn-around Time: 3
+Job T Turn-around Time: 8
+Job U Turn-around Time: 164
+Job V Turn-around Time: 19
+Job W Turn-around Time: 11
+Job X Turn-around Time: 11
+Job Y Turn-around Time: 62
+Average Turn-around Time: 59.08
+
+Shortest Remaining Time (SRT) Information:
+Job A Turn-around Time: 11
+Job B Turn-around Time: 9
+Job C Turn-around Time: 15
+Job D Turn-around Time: 42
+Job E Turn-around Time: 70
+Job F Turn-around Time: 29
+Job G Turn-around Time: 15
+Job H Turn-around Time: 2
+Job I Turn-around Time: 164
+Job J Turn-around Time: 100
+Job K Turn-around Time: 69
+Job L Turn-around Time: 109
+Job M Turn-around Time: 3
+Job N Turn-around Time: 163
+Job O Turn-around Time: 127
+Job P Turn-around Time: 200
+Job Q Turn-around Time: 66
+Job R Turn-around Time: 7
+Job S Turn-around Time: 1
+Job T Turn-around Time: 8
+Job U Turn-around Time: 164
+Job V Turn-around Time: 10
+Job W Turn-around Time: 3
+Job X Turn-around Time: 11
+Job Y Turn-around Time: 62
+Average Turn-around Time: 58.4
+
+Round Robin Information (Time Quantum = 3):
+Job A Turn-around Time: 14
+Job B Turn-around Time: 9
+Job C Turn-around Time: 107
+Job D Turn-around Time: 81
+Job E Turn-around Time: 103
+Job F Turn-around Time: 69
+Job G Turn-around Time: 79
+Job H Turn-around Time: 15
+Job I Turn-around Time: 191
+Job J Turn-around Time: 177
+Job K Turn-around Time: 149
+Job L Turn-around Time: 177
+Job M Turn-around Time: 30
+Job N Turn-around Time: 191
+Job O Turn-around Time: 178
+Job P Turn-around Time: 200
+Job Q Turn-around Time: 178
+Job R Turn-around Time: 42
+Job S Turn-around Time: 43
+Job T Turn-around Time: 88
+Job U Turn-around Time: 182
+Job V Turn-around Time: 123
+Job W Turn-around Time: 48
+Job X Turn-around Time: 88
+Job Y Turn-around Time: 146
+Average Turn-around Time: 108.32
+
+Best Policy is SRT with an Average Turn-around Time of 58.4

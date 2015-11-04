@@ -1,0 +1,59 @@
+Uniprocessor Scheduling Algorithm Simulation
+Written by Nicholas Pickering
+
+File processed:	data/easy.txt
+Time Quantum:	3
+
+First Come, First Serve (FCFS) Information:
+Job A Turn-around Time: 5
+Job B Turn-around Time: 6
+Job C Turn-around Time: 15
+Job D Turn-around Time: 12
+Job E Turn-around Time: 12
+Job F Turn-around Time: 14
+Job G Turn-around Time: 11
+Job H Turn-around Time: 7
+Job I Turn-around Time: 9
+Job J Turn-around Time: 9
+Average Turn-around Time: 10.0
+
+Shortest Job Next (SJN) Information:
+Job A Turn-around Time: 5
+Job B Turn-around Time: 6
+Job C Turn-around Time: 15
+Job D Turn-around Time: 13
+Job E Turn-around Time: 9
+Job F Turn-around Time: 14
+Job G Turn-around Time: 11
+Job H Turn-around Time: 7
+Job I Turn-around Time: 9
+Job J Turn-around Time: 9
+Average Turn-around Time: 9.8
+
+Shortest Remaining Time (SRT) Information:
+Job A Turn-around Time: 7
+Job B Turn-around Time: 2
+Job C Turn-around Time: 24
+Job D Turn-around Time: 4
+Job E Turn-around Time: 1
+Job F Turn-around Time: 5
+Job G Turn-around Time: 14
+Job H Turn-around Time: 3
+Job I Turn-around Time: 13
+Job J Turn-around Time: 4
+Average Turn-around Time: 7.7
+
+Round Robin Information (Time Quantum = 3):
+Job A Turn-around Time: 10
+Job B Turn-around Time: 4
+Job C Turn-around Time: 27
+Job D Turn-around Time: 5
+Job E Turn-around Time: 8
+Job F Turn-around Time: 13
+Job G Turn-around Time: 14
+Job H Turn-around Time: 4
+Job I Turn-around Time: 12
+Job J Turn-around Time: 9
+Average Turn-around Time: 10.6
+
+Best Policy is SRT with an Average Turn-around Time of 7.7

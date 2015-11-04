@@ -23,11 +23,10 @@ Invoke the application by calling:
 The entry point to the application is main.py. This program references several helper classes in the lib directory.
 
 # Output Files
-This program produces a single output file: results.txt.
+This program produces output to the console.
 
-results.txt contains the output of the program after it has completed.
-
-The file is stored in the output directory.
+An example result set for each test is saved to the output directory, with the same name as tests.
+Tests are available in the data directory.
 
 # Test Data
 The project contains a directory named "data" which contains the provided test files.
