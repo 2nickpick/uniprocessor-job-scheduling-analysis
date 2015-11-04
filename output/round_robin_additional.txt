@@ -1,0 +1,169 @@
+Additional Round Robin Testing
+
+Round Robin Information (Time Quantum = 1):
+Job A Turn-around Time: 15
+Job B Turn-around Time: 10
+Job C Turn-around Time: 110
+Job D Turn-around Time: 98
+Job E Turn-around Time: 123
+Job F Turn-around Time: 99
+Job G Turn-around Time: 74
+Job H Turn-around Time: 13
+Job I Turn-around Time: 206
+Job J Turn-around Time: 180
+Job K Turn-around Time: 152
+Job L Turn-around Time: 179
+Job M Turn-around Time: 36
+Job N Turn-around Time: 196
+Job O Turn-around Time: 183
+Job P Turn-around Time: 200
+Job Q Turn-around Time: 170
+Job R Turn-around Time: 52
+Job S Turn-around Time: 15
+Job T Turn-around Time: 85
+Job U Turn-around Time: 183
+Job V Turn-around Time: 109
+Job W Turn-around Time: 56
+Job X Turn-around Time: 91
+Job Y Turn-around Time: 144
+Average Turn-around Time: 111.16
+
+Round Robin Information (Time Quantum = 2):
+Job A Turn-around Time: 15
+Job B Turn-around Time: 11
+Job C Turn-around Time: 100
+Job D Turn-around Time: 75
+Job E Turn-around Time: 122
+Job F Turn-around Time: 98
+Job G Turn-around Time: 74
+Job H Turn-around Time: 10
+Job I Turn-around Time: 199
+Job J Turn-around Time: 171
+Job K Turn-around Time: 157
+Job L Turn-around Time: 176
+Job M Turn-around Time: 51
+Job N Turn-around Time: 195
+Job O Turn-around Time: 187
+Job P Turn-around Time: 200
+Job Q Turn-around Time: 174
+Job R Turn-around Time: 65
+Job S Turn-around Time: 29
+Job T Turn-around Time: 92
+Job U Turn-around Time: 182
+Job V Turn-around Time: 117
+Job W Turn-around Time: 67
+Job X Turn-around Time: 90
+Job Y Turn-around Time: 143
+Average Turn-around Time: 112.0
+
+Round Robin Information (Time Quantum = 5):
+Job A Turn-around Time: 16
+Job B Turn-around Time: 8
+Job C Turn-around Time: 74
+Job D Turn-around Time: 32
+Job E Turn-around Time: 105
+Job F Turn-around Time: 51
+Job G Turn-around Time: 67
+Job H Turn-around Time: 23
+Job I Turn-around Time: 200
+Job J Turn-around Time: 163
+Job K Turn-around Time: 162
+Job L Turn-around Time: 165
+Job M Turn-around Time: 46
+Job N Turn-around Time: 189
+Job O Turn-around Time: 170
+Job P Turn-around Time: 197
+Job Q Turn-around Time: 174
+Job R Turn-around Time: 56
+Job S Turn-around Time: 56
+Job T Turn-around Time: 63
+Job U Turn-around Time: 184
+Job V Turn-around Time: 128
+Job W Turn-around Time: 71
+Job X Turn-around Time: 120
+Job Y Turn-around Time: 143
+Average Turn-around Time: 106.52
+
+Round Robin Information (Time Quantum = 10):
+Job A Turn-around Time: 16
+Job B Turn-around Time: 8
+Job C Turn-around Time: 51
+Job D Turn-around Time: 17
+Job E Turn-around Time: 91
+Job F Turn-around Time: 34
+Job G Turn-around Time: 39
+Job H Turn-around Time: 37
+Job I Turn-around Time: 157
+Job J Turn-around Time: 164
+Job K Turn-around Time: 161
+Job L Turn-around Time: 174
+Job M Turn-around Time: 71
+Job N Turn-around Time: 171
+Job O Turn-around Time: 176
+Job P Turn-around Time: 185
+Job Q Turn-around Time: 185
+Job R Turn-around Time: 97
+Job S Turn-around Time: 97
+Job T Turn-around Time: 99
+Job U Turn-around Time: 180
+Job V Turn-around Time: 106
+Job W Turn-around Time: 108
+Job X Turn-around Time: 109
+Job Y Turn-around Time: 151
+Average Turn-around Time: 107.36
+
+Round Robin Information (Time Quantum = 15):
+Job A Turn-around Time: 11
+Job B Turn-around Time: 9
+Job C Turn-around Time: 15
+Job D Turn-around Time: 20
+Job E Turn-around Time: 30
+Job F Turn-around Time: 38
+Job G Turn-around Time: 43
+Job H Turn-around Time: 38
+Job I Turn-around Time: 189
+Job J Turn-around Time: 63
+Job K Turn-around Time: 70
+Job L Turn-around Time: 83
+Job M Turn-around Time: 86
+Job N Turn-around Time: 193
+Job O Turn-around Time: 105
+Job P Turn-around Time: 197
+Job Q Turn-around Time: 129
+Job R Turn-around Time: 129
+Job S Turn-around Time: 129
+Job T Turn-around Time: 131
+Job U Turn-around Time: 184
+Job V Turn-around Time: 143
+Job W Turn-around Time: 145
+Job X Turn-around Time: 141
+Job Y Turn-around Time: 140
+Average Turn-around Time: 98.44
+
+Round Robin Information (Time Quantum = 20):
+Job A Turn-around Time: 11
+Job B Turn-around Time: 9
+Job C Turn-around Time: 15
+Job D Turn-around Time: 20
+Job E Turn-around Time: 30
+Job F Turn-around Time: 38
+Job G Turn-around Time: 43
+Job H Turn-around Time: 38
+Job I Turn-around Time: 55
+Job J Turn-around Time: 66
+Job K Turn-around Time: 73
+Job L Turn-around Time: 86
+Job M Turn-around Time: 89
+Job N Turn-around Time: 96
+Job O Turn-around Time: 111
+Job P Turn-around Time: 130
+Job Q Turn-around Time: 140
+Job R Turn-around Time: 140
+Job S Turn-around Time: 140
+Job T Turn-around Time: 142
+Job U Turn-around Time: 154
+Job V Turn-around Time: 157
+Job W Turn-around Time: 159
+Job X Turn-around Time: 152
+Job Y Turn-around Time: 151
+Average Turn-around Time: 89.8

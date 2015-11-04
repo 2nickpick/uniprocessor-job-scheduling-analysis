@@ -66,4 +66,7 @@ def simulate(jobs):
     for result in results:
         print("Job {1} Turn-around Time: {0} ".format(result[1], chr(result[0] + 65)))
 
-    print("Average Turn-around Time: {0}\n".format(mean([result[1] for result in results])))
+    time = mean([result[1] for result in results])
+    print("Average Turn-around Time: {0}\n".format(time))
+
+    return time

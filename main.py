@@ -55,7 +55,33 @@ jobs = util.load_file(file)
 print("\nFile processed:\t{0}".format(filename))
 print("Time Quantum:\t{0} \n".format(time_quantum))
 
-fcfs_results = fcfs.simulate(jobs)
-sjn_results = sjn.simulate(jobs)
-srt_results = srt.simulate(jobs)
-rr_results = round_robin.simulate(jobs, time_quantum)
+results = [
+    fcfs.simulate(jobs),
+    sjn.simulate(jobs),
+    srt.simulate(jobs),
+    round_robin.simulate(jobs, time_quantum)
+]
+
+algorithms = [
+    "FCFS",
+    "SJN",
+    "SRT",
+    "Round Robin"
+]
+
+min_time = min(results)
+correct_algorithms = []
+for index, algorithm in enumerate(algorithms):
+    if results[index] == min_time:
+        correct_algorithms.append(algorithm)
+
+print("Best Policy is {0} with an Average Turn-around Time of {1}".format(', '.join(correct_algorithms), min_time))
+
+print("Additional Round Robin Testing\n")
+
+results = []
+time_quantums = [1, 2, 5, 10, 15, 20]
+for time_quantum in time_quantums:
+    results.append(round_robin.simulate(jobs, time_quantum))
+
+print(results)
