@@ -1,7 +1,7 @@
 #
 #
-#   SJN
-#   This module handles the simulation of Shortest Job Next
+#   SRT
+#   This module handles the simulation of Shortest Remaining Time
 #
 import heapq
 
@@ -10,13 +10,13 @@ from collections import deque
 from statistics import mean
 
 #   Simulate
-#   Simulate the SJN algorithm
+#   Simulate the SRT algorithm
 #
 #   jobs - the jobs to simulate
 
 
 def simulate(jobs):
-    print("Shortest Job Next (SJN) Information:")
+    print("Shortest Remaining Time (SRT) Information:")
 
     # don't overwrite the main jobs array
     jobs = util.deepcopy(jobs)
