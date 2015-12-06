@@ -1,8 +1,13 @@
 Nicholas Pickering
+
 Operating Systems COP4610
+
 Project 2 - Analysis of Uniprocessor Scheduling Algorithms
+
 Professor Littleton
+
 Date Due: 11/15/2015
+
 Date Submitted 11/15/2015
 
 # Introduction
@@ -16,8 +21,8 @@ This program simulates several uniprocessor scheduling aglorithms including:
 Invoke the application by calling:
     ./p2 filename time_quantum
 
-    where filename points to a file containing a sequence of jobs
-    and time_quantum is the value to be used by Round Robin as the Time Quantum
+where filename points to a file containing a sequence of jobs
+and time_quantum is the value to be used by Round Robin as the Time Quantum
 
 # Main, Library
 The entry point to the application is main.py. This program references several helper classes in the lib directory.
